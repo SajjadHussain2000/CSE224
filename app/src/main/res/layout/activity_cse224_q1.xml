@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CSE224_Q1"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#464EB8"
+        android:text="Microsoft Teams"
+        android:textSize="40sp"/>
+    <androidx.cardview.widget.CardView
+        app:cardElevation = "16dp"
+        app:cardCornerRadius = "160dp"
+        android:layout_margin = "16dp"
+        android:foregroundGravity = "center"
+        android:layout_centerInParent = "true"
+        android:layout_width = "150dp"
+        android:layout_height = "150dp">
+        <ImageView
+            android:scaleType = "centerCrop"
+            android:src = "@drawable/logo"
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"/>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Get started with your work, school or personal Microsoft account"
+        android:textSize="15sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@drawable/round"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="#EFEDED"
+        android:hint="Enter email,phone or skype"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#464EB8"
+        android:background="@drawable/round"
+        android:textAllCaps="false"
+        android:text="Sign in"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Get help with singing in"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/border"
+        android:textColor="#464EB8"
+        android:text="Join a meeting"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableLeft="@drawable/iconresize"
+        android:paddingLeft="80dp"
+        android:paddingRight="90dp"
+        android:textColor="#464EB8"
+        android:textAllCaps="false"
+        android:text="Sign up for free"/>
+
+
+
+</LinearLayout>
